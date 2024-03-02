@@ -1,9 +1,9 @@
-let age: number = 20;
-let names: String = "mc ak yerima";
+// type script data types
+let sales: number = 1234_000;
+let course: string = "TypeScript";
+let isPublished: boolean = false;
+let level: any = null;
 
-const display = {
-    name: names,
-    age: age,
+const displayTypes = (types: string) => {
+    console.log(types);
 }
-
-console.log(display);
